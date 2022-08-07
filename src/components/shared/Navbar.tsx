@@ -7,7 +7,7 @@ const Navbar = (): ReactElement => {
 		<>
 			<li>
 				<NavLink
-					className="font-mono rounded-tl-3xl rounded-br-3xl ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-xl "
 					to="/"
 				>
 					Home
@@ -15,7 +15,7 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono rounded-tl-3xl rounded-br-3xl ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-xl "
 					to="/events"
 				>
 					Events
@@ -23,7 +23,7 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono rounded-tl-3xl rounded-br-3xl ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-xl "
 					to="/gallery"
 				>
 					Gallery
@@ -31,7 +31,7 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono rounded-tl-3xl rounded-br-3xl ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-xl "
 					to="/blogs"
 				>
 					Blogs
@@ -39,7 +39,7 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono rounded-tl-3xl rounded-br-3xl ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-xl "
 					to="/contact"
 				>
 					Contact
@@ -47,7 +47,7 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono rounded-tl-3xl rounded-br-3xl ml-6 font-bold rounded-xl"
+					className="font-mono   ml-6 font-bold rounded-xl"
 					// style={({ isActive }) =>
 					// 	isActive
 					// 		? { backgroundColor: "#c10f4a" }
@@ -65,7 +65,7 @@ const Navbar = (): ReactElement => {
 		<div className="drawer drawer-end">
 			<input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 			<div className="drawer-content flex flex-col ">
-				<div className=" bg-white">
+				<div className="lg:py-6 bg-white">
 					<div className="w-full navbar container mx-auto">
 						<div className="flex-1 px-2 mx-2">Rokto Judda</div>
 						<div className="flex-none hidden lg:block">

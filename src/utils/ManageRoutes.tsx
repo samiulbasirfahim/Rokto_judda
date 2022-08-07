@@ -1,6 +1,6 @@
 import { ReactElement } from "react"
 import { Route, Routes } from "react-router-dom"
-import Home from "../components/pages/Home"
+import Home from "../components/pages/home/Home"
 
 const ManageRoutes = (): ReactElement => {
 	return (

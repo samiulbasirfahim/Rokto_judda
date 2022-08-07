@@ -5,6 +5,7 @@
 
 /* import fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
 
 /* global styles */
 * {
@@ -15,3 +16,17 @@
 }
 
 /* Custom class */
+.banner-height {
+	height: calc(100vh - 112px);
+}
+
+.banner-image {
+	background-image: url("./assets/images/bannerBackground.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.font-mouse {
+	font-family: 'Oleo Script Swash Caps', cursive;
+}

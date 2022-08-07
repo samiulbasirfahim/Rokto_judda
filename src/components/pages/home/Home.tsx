@@ -1,9 +1,10 @@
 import { ReactElement } from "react"
+import Banner from "./Banner"
 
 const Home = (): ReactElement => {
 	return (
 		<div>
-			<h1>Home</h1>
+			<Banner />
 		</div>
 	)
 }
