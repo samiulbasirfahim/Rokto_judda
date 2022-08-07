@@ -1,14 +1,27 @@
 import { ReactElement } from "react"
+import { Link } from "react-router-dom"
 import ManageRoutes from "../../utils/ManageRoutes"
 
 const Navbar = (): ReactElement => {
 	const navBarItem: ReactElement = (
 		<>
 			<li>
-				<a>Navbar Item 1</a>
+				<Link to="/">Home</Link>
 			</li>
 			<li>
-				<a>Navbar Item 2</a>
+				<Link to="/">Events</Link>
+			</li>
+			<li>
+				<Link to="/">Gallery</Link>
+			</li>
+			<li>
+				<Link to="/">Blog</Link>
+			</li>
+			<li>
+				<Link to="/">Contact</Link>
+			</li>
+			<li>
+				<Link to="/">Donate</Link>
 			</li>
 		</>
 	)
@@ -16,8 +29,8 @@ const Navbar = (): ReactElement => {
 	return (
 		<div className="drawer">
 			<input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-			<div className="drawer-content flex flex-col">
-				<div className="w-full navbar bg-base-300">
+			<div className="drawer-content flex flex-col container mx-auto">
+				<div className="w-full navbar">
 					<div className="flex-none lg:hidden">
 						<label
 							htmlFor="my-drawer-3"
