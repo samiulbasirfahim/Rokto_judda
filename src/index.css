@@ -5,14 +5,14 @@
 
 /* import fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap");
 
 /* global styles */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: "Poppins", sans-serif;
+	font-family: sans-serif;
 }
 
 /* Custom class */
@@ -28,5 +28,5 @@
 }
 
 .font-mouse {
-	font-family: 'Oleo Script Swash Caps', cursive;
+	font-family: "Oleo Script Swash Caps", cursive;
 }

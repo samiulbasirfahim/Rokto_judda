@@ -11,10 +11,10 @@ const Banner = (): ReactElement => {
 							Be the reason for someone's heartbeat
 						</h1>
 						<Link
+							className="font-mono bg-primary px-12 py-4 text-white  ml-6 font-bold rounded-none"
 							to="/donate"
-							className="btn btn-primary rounded-none"
 						>
-							Donate
+							Donate ❤
 						</Link>
 					</div>
 				</div>
