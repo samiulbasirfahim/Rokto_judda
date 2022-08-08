@@ -7,7 +7,7 @@ const Navbar = (): ReactElement => {
 		<>
 			<li>
 				<NavLink
-					className="font-mono   ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-none px-4 "
 					to="/"
 				>
 					Home
@@ -15,7 +15,7 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono   ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-none px-4 "
 					to="/events"
 				>
 					Events
@@ -23,23 +23,23 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono   ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-none px-4 "
 					to="/gallery"
 				>
 					Gallery
 				</NavLink>
 			</li>
-			<li>
+			{/* <li>
 				<NavLink
-					className="font-mono   ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-none px-4 "
 					to="/blogs"
 				>
 					Blogs
 				</NavLink>
-			</li>
+			</li> */}
 			<li>
 				<NavLink
-					className="font-mono   ml-6 font-bold rounded-xl "
+					className="font-mono   ml-6 font-bold rounded-none px-4 "
 					to="/contact"
 				>
 					Contact
@@ -47,12 +47,15 @@ const Navbar = (): ReactElement => {
 			</li>
 			<li>
 				<NavLink
-					className="font-mono   ml-6 font-bold rounded-xl"
-					// style={({ isActive }) =>
-					// 	isActive
-					// 		? { backgroundColor: "#c10f4a" }
-					// 		: { backgroundColor: "green" }
-					// }
+					className="font-mono   ml-6 font-bold rounded-none px-4 "
+					to="/login"
+				>
+					Login
+				</NavLink>
+			</li>
+			<li>
+				<NavLink
+					className="font-mono   ml-6 font-bold rounded-none px-4"
 					to="/donate"
 				>
 					Donate ❤
@@ -65,9 +68,16 @@ const Navbar = (): ReactElement => {
 		<div className="drawer drawer-end">
 			<input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
 			<div className="drawer-content flex flex-col ">
-				<div className="lg:py-6 bg-white">
+				<div className="py-6">
 					<div className="w-full navbar container mx-auto">
-						<div className="flex-1 px-2 mx-2">Rokto Judda</div>
+						<div className="flex-1 px-2 mx-2 ">
+							<Link
+								to="/"
+								className="font-bold font-mouse text-red-500 text-4xl"
+							>
+								Rokto Judda
+							</Link>
+						</div>
 						<div className="flex-none hidden lg:block">
 							<ul className="menu menu-horizontal text-black">
 								{navBarItem}
