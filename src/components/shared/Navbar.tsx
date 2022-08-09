@@ -37,14 +37,14 @@ const Navbar = (): ReactElement => {
 					Blogs
 				</NavLink>
 			</li> */}
-			<li>
+			{/* <li>
 				<NavLink
 					className="font-mono   ml-6 font-bold rounded-none px-4 "
 					to="/contact"
 				>
 					Contact
 				</NavLink>
-			</li>
+			</li> */}
 			<li>
 				<NavLink
 					className="font-mono   ml-6 font-bold rounded-none px-4 "
